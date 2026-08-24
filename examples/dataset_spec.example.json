@@ -1,0 +1,26 @@
+{
+  "dataset": {
+    "name": "example-dataset",
+    "version": 1
+  },
+  "source": {
+    "allowed_formats": ["html", "plain_text", "text"]
+  },
+  "content": {
+    "minimum_characters": 10,
+    "maximum_characters": 50000
+  },
+  "quality": {
+    "minimum_score": 0.5
+  },
+  "deduplication": {
+    "mode": "normalized",
+    "similarity_threshold": 0.85
+  },
+  "selection": {
+    "maximum_records": 100
+  },
+  "output": {
+    "format": "jsonl"
+  }
+}

@@ -1,0 +1,109 @@
+# ==============================
+# Secrets / Environment
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.venv/
+venv/
+env/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# IDE
+# ==============================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# OS
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# ==============================
+# Build / Distribution
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Project-local data
+# ==============================
+data/raw/
+data/processed/
+data/cache/
+datasets/
+artifacts/
+
+# ==============================
+# Docker local overrides
+# ==============================
+docker-compose.override.yml
+
+# ==============================
+# Additional Virtual Environments
+# ==============================
+.venv_new/
+venv_windows/
+
+# ==============================
+# Project-specific archives
+# ==============================
+*.zip
+*.tar.gz
+*.rar
+
+# ==============================
+# Prompt / scratch files
+# ==============================
+claude_prompt.md
+prompt*.md
+progress*.md
+
+# ==============================
+# Build artifacts
+# ==============================
+*.egg-info/
+*.whl
+dist/
+build/
+
+# ==============================
+# Generated outputs
+# ==============================
+output/

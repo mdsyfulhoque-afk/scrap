@@ -1,0 +1,29 @@
+[
+  {
+    "url": "https://www.dsebd.org/",
+    "description": "DSE Homepage",
+    "resource_id": "6f892049-45f4-47bd-9507-8a024069edaf",
+    "fetch_id": "ef849421-c77d-493f-80dd-01ee7dbd7ffb",
+    "artifact_id": "cc40272b-76dc-46b8-9a60-b4eb68d45c0f",
+    "checksum": "0219541c2836e58dffea01c1ed5253c93af07d9b407032a75cb6fd22d814fb7f",
+    "size": 424144
+  },
+  {
+    "url": "https://dsebd.org/latest_share_price_scroll_by_volume.php",
+    "description": "Latest Share Price by Volume",
+    "resource_id": "a583e4f8-ad28-49ba-99f5-b2c7b26780bd",
+    "fetch_id": "5ed3eedd-7a1a-4959-a559-b7e574ded0d7",
+    "artifact_id": "e72660d9-097a-4970-8b7d-f714be86cc70",
+    "checksum": "8d0adb8d7852113acceb88d51bcb29b09cc11fbef873fd46ccbe18326065246b",
+    "size": 537262
+  },
+  {
+    "url": "https://dsebd.org/top_ten_gainer.php",
+    "description": "Top Ten Gainer",
+    "resource_id": "291ca8ee-7453-4ac6-8607-125a9f1c23c1",
+    "fetch_id": "e4509d45-0236-4cd6-81d0-fc2ece038366",
+    "artifact_id": "ac32ae3f-6933-4817-9038-22d60f236d29",
+    "checksum": "06e9876cd43b9bbed36345c60c8e635ea263971361ad2be3533b1d6eaa755885",
+    "size": 302070
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "dataset_name": "dse_market_data",
+  "description": "Dhaka Stock Exchange market data pages (acceptance run 2026-08-19)",
+  "created_at": "2026-08-19T08:49:03.877788+00:00",
+  "spec": {
+    "languages": [
+      "en"
+    ],
+    "formats": [
+      "html"
+    ],
+    "min_words": 100,
+    "max_words": 50000,
+    "deduplicate": true
+  },
+  "statistics": {
+    "total_candidates": 4,
+    "accepted": 0,
+    "rejected": 4,
+    "rejection_reasons": {
+      "language 'unknown' not in ['en']": 4
+    }
+  },
+  "output": {
+    "format": "jsonl",
+    "record_count": 0,
+    "fields": [
+      "source_url",
+      "title",
+      "normalized_text",
+      "normalized_checksum",
+      "word_count",
+      "language",
+      "artifact_id",
+      "canonical_document_id",
+      "normalized_document_id"
+    ]
+  },
+  "source_urls": []
+}

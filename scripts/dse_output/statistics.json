@@ -1,0 +1,12 @@
+{
+  "total_records": 0,
+  "accepted_records": 0,
+  "rejected_records": 4,
+  "word_count": {
+    "min": 0,
+    "max": 0,
+    "mean": 0
+  },
+  "language_distribution": {},
+  "source_domains": []
+}
